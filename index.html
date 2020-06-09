@@ -10,7 +10,7 @@
   </head>
       <body style='margin : 0px; overflow: hidden;'>
 <!--=<'sourcetype: webcam;--->
-        <a-scene embedded arjs='trackingMethod: best;'>
+        <a-scene embedded arjs='trackingMethod: best; sourcetype: webcam'>
           <a-assets>
               <a-asset-item id="map-obj" src="https://raw.githubusercontent.com/willp19/arar/gh-pages/assets/MapAR2.obj"></a-asset-item>
               <a-asset-item id="map-mtl" src="https://raw.githubusercontent.com/willp19/arar/gh-pages/assets/MapAR2.mtl"></a-asset-item>
@@ -18,7 +18,8 @@
 
             <a-marker preset=’hiro’>
 
-            <a-entity obj-model="obj: #map-obj position="0 0 0" Scale"5 5 5"></a-entity>
+            <a-entity obj-model="obj: #map-obj; mtl: #map-mtl" position="4 4 4" Scale="1 1 1" rotation= "180 0 0"></a-entity>
+
 <!-- mtl: #map-mtl"
         <a-assets>
                   <a-asset-item id="map" src="https://github.com/willp19/arar/blob/gh-pages/assets/MapAR2.obj"></a-asset-item>
