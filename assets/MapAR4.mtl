@@ -14,15 +14,12 @@ map_Bump D:\\Alphas, Textures etc\\Texturen\\eigene\\Nature\\grass\\grass 03\\gr
 map_Kd D:\\Alphas, Textures etc\\Texturen\\eigene\\Nature\\grass\\grass 03\\grass diffuse.bmp
 map_Ns D:\\Alphas, Textures etc\\Texturen\\eigene\\Nature\\grass\\grass 03\\grass roughness.bmp
 
-newmtl Marble_grey
-Ns 225.000000
+newmtl Marble_solid_3
+Ns 380.250007
 Ka 1.000000 1.000000 1.000000
-Kd 0.800000 0.800000 0.800000
+Kd 0.132868 0.132868 0.132868
 Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 2
-map_Bump D:\\Alphas, Textures etc\\Texturen\\eigene\\Marmor\\Marmor 48\\marble normal.bmp
-map_Kd D:\\Alphas, Textures etc\\Texturen\\eigene\\Marmor\\Marmor 48\\marble base.jpg
-map_Ns D:\\Alphas, Textures etc\\Texturen\\eigene\\Marmor\\Marmor 48\\marble roughness.bmp
